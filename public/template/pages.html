@@ -1,0 +1,62 @@
+<div>
+    <div class="pages" ng-show="home" ng-cloak>
+        <h1>Home</h1>
+        <br>
+    </div>
+    <div class="pages" ng-show="blog" ng-cloak>
+        <h1></h1>
+        <div ng-repeat="a in arr" class="newsBlock block">
+            <h2>{{a.title}}</h2>
+            <br>
+            <h3>{{a.text}}</h3>
+        </div>
+    </div>
+    <div class="pages" ng-show="contact" ng-cloak>
+        <h1>Contacts</h1>
+        <br>
+
+        <table id="socialInfo">
+            <tr>
+                <td>
+                    <div class="logo" id="fb"></div>
+                </td>
+                <td>
+                    <div class="name">Facebook</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="logo" id="youtube"></div>
+                </td>
+                <td>
+                    <div class="name">Youtube</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="logo" id="google"></div>
+                </td>
+                <td>
+                    <div class="name">Google+</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="logo" id="tw"></div>
+                </td>
+                <td>
+                    <div class="name">Twitter</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="logo" id="ln"></div>
+                </td>
+                <td>
+                    <div class="name">LinkedIn</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>

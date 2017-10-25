@@ -1,0 +1,8 @@
+<div class="credit navi">
+    <ul>
+        <li ng-repeat="mb in menuButtons">
+            <a ng-click="mb.action()">{{mb.name}}</a>
+        </li>
+        <input type="text" ng-click="Search()" placeholder="Search" ng-model="searchModel">
+    </ul>
+</div>
