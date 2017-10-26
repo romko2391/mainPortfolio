@@ -64,9 +64,25 @@ app.directive('headerBlock', function () {
                         $scope.mainC = true;
                         $scope.search = false;
                         $scope.pp = false;
+                        $scope.goods = false;
 
                     },
                     name: "Home"
+                 }, {
+                    action: function () {
+                        $scope.home = false;
+                        $scope.contact = false;
+                        $scope.blog = false;
+                        $scope.slider = false;
+                        $scope.mainC = false;
+                        $scope.search = false;
+                        $scope.pp = false;
+                        $scope.goods = true;
+
+
+
+                    },
+                    name: "Goods"
                  }, {
                     action: function () {
                         $scope.home = false;
@@ -76,6 +92,8 @@ app.directive('headerBlock', function () {
                         $scope.mainC = false;
                         $scope.search = false;
                         $scope.pp = false;
+                        $scope.goods = false;
+
 
 
                     },
@@ -89,6 +107,8 @@ app.directive('headerBlock', function () {
                         $scope.mainC = false;
                         $scope.search = false;
                         $scope.pp = false;
+                        $scope.goods = false;
+
 
                     },
                     name: "Contact"
@@ -102,6 +122,8 @@ app.directive('headerBlock', function () {
                         $scope.mainC = false;
                         $scope.search = false;
                         $scope.pp = true;
+                        $scope.goods = false;
+
 
                     },
                     name: "My"
@@ -117,6 +139,8 @@ app.directive('headerBlock', function () {
                 $scope.mainC = false;
                 $scope.search = true;
                 $scope.pp = false;
+                $scope.goods = false;
+
             }
         }
     }
@@ -220,6 +244,15 @@ app.directive('chatBlock', function () {
                 $scope.textField = "";
 
             }
+        }
+    }
+});
+app.directive('mainGoods', function () {
+    return {
+        replace: true,
+        templateUrl: 'template/goods.html',
+        controller: function ($scope) {
+
         }
     }
 });

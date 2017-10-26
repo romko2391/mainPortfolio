@@ -456,9 +456,11 @@ pre code {
     margin: 5px;
 
 }
+
 .autr:hover {
     background: #515D82;
 }
+
 .area {
     height: 30px;
     width: 180px;
@@ -478,8 +480,7 @@ pre code {
     background-image: url("/img/chat.png");
     border-radius: 10px;
     opacity: 0.8;
-/*    display: none;*/
-
+    /*    display: none;*/
 }
 
 .chatBlock {
@@ -495,12 +496,13 @@ pre code {
     z-index: 9999;
     background: rgba(0, 0, 0, 0.5);
     display: none;
-    
+
 }
 
-.chatBlock  h3 {
+.chatBlock h3 {
     color: aliceblue;
 }
+
 .mainChat {
     text-align: left;
     width: 230px;
@@ -513,5 +515,76 @@ pre code {
     overflow: scroll;
 }
 
+.goods {
+    margin-top: 0px;
+}
+
+.store {
+    margin: 0 auto;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.piece {
+    width: 350px;
+    height: 350px;
+    background: white;
+    margin-left: 50px;
+    box-shadow: 10px 5px 15px #878787;
+    border: 1px solid grey;
+}
+
+.nameGood {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border: 1px solid #E2E2E2;
+}
+
+.picGood {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #E2E2E2;
 
 
+}
+
+.priceGood {
+    height: 60px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border: 1px solid #E2E2E2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+.moreGood {
+    width: 40%;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.piece:hover {
+    width: 350px;
+    height: 350px;
+    background: white;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px #606060;
+    border: 1px solid grey;
+}
