@@ -1,0 +1,29 @@
+<div class="admin pages" ng-show="admin">
+    <div class="pages admin">
+        <h1>Hello Admin</h1>
+         <div class="reg">
+            <h3>Add good</h3>
+             <table class="name">
+                 
+                 <tr>
+                     <td>Name</td>
+                     <td><input type="text" class="enterParam" ng-model="name" required></td>
+                 </tr>
+                 <tr>
+                     <td>Price</td>
+                     <td><input type="text" ng-model="price" class="enterParam" required></td>
+                 </tr>
+                 <tr>
+                     <td>About</td>
+                     <td><input type="text" class="form" ng-model="about" required></td>
+                 </tr>
+                 <tr>
+                     <td>Photo</td>
+                     <td><input type="button"  value="Select photo" id="selectPhoto" ng-click="selectPhoto()" required></td>
+                 </tr>
+             </table>
+             <input type="button" value="Додати" ng-click="additem()">
+         </div>
+    </div>
+  
+</div>

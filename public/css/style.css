@@ -23,7 +23,6 @@ a {
     text-decoration: none;
 }
 
-
 h1,
 h2 {
     width: 100%;
@@ -64,7 +63,6 @@ pre code {
     border: rgba(0, 0, 0, 0.05) 5px solid;
     max-width: 500px;
 }
-
 
 .main {
     float: left;
@@ -165,8 +163,8 @@ pre code {
     float: left;
     width: 100%;
     height: 30px;
-
 }
+
 
 }
 
@@ -201,7 +199,6 @@ pre code {
     color: black;
     background: rgba(255, 255, 255, 0.5);
 }
-
 
 .page_container {
     max-width: 960px;
@@ -269,14 +266,12 @@ pre code {
     align-items: center;
     flex-direction: row;
     box-sizing: border-box;
-
 }
 
 .navi li {
     margin: 30px;
     list-style: none;
     box-sizing: border-box;
-
 }
 
 .navi a {
@@ -284,7 +279,6 @@ pre code {
     color: white;
     padding: 10px;
     box-sizing: border-box;
-
 }
 
 .navi a:hover {
@@ -320,7 +314,6 @@ pre code {
 
 .block h2 {
     color: aliceblue;
-
     font-style: italic;
 }
 
@@ -348,14 +341,10 @@ pre code {
     padding: 10px;
 }
 
-
-
 #google {
     background-image: url("/img/social.png");
     background-position: -13px -87px;
 }
-
-
 
 #fb {
     background-image: url("/img/social.png");
@@ -376,8 +365,6 @@ pre code {
     background-image: url("/img/social.png");
     background-position: -74px -87px;
 }
-
-
 
 .mainInfo {
     min-height: 500px;
@@ -407,13 +394,11 @@ pre code {
     border-radius: 50px;
     display: none;
     opacity: 0.4;
-
 }
 
 #btnUp:hover {
     opacity: 0.8;
     color: white;
-
 }
 
 .search {
@@ -425,7 +410,6 @@ pre code {
 
 .own {
     margin: 0;
-
 }
 
 .own h2 {
@@ -441,7 +425,6 @@ pre code {
     border-radius: 5px;
     border: 2px solid white;
     color: aliceblue;
-
 }
 
 .autr {
@@ -454,7 +437,6 @@ pre code {
     border-radius: 5px;
     border: 2px solid white;
     margin: 5px;
-
 }
 
 .autr:hover {
@@ -466,7 +448,6 @@ pre code {
     width: 180px;
     font-size: 20px;
 }
-
 
 #openChat {
     min-height: 60px;
@@ -496,7 +477,6 @@ pre code {
     z-index: 9999;
     background: rgba(0, 0, 0, 0.5);
     display: none;
-
 }
 
 .chatBlock h3 {
@@ -527,8 +507,7 @@ pre code {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-
+    /*    padding: 20px;*/
 }
 
 .piece {
@@ -540,15 +519,6 @@ pre code {
     border: 1px solid grey;
 }
 
-.nameGood {
-    height: 40px;
-    width: 100%;
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    border: 1px solid #E2E2E2;
-}
-
 .picGood {
     height: 250px;
     width: 100%;
@@ -556,8 +526,15 @@ pre code {
     color: black;
     font-size: 20px;
     border: 1px solid #E2E2E2;
+}
 
-
+.nameGood {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border: 1px solid #E2E2E2;
 }
 
 .priceGood {
@@ -580,6 +557,10 @@ pre code {
     font-weight: normal;
 }
 
+.properties {
+    display: none;
+}
+
 .piece:hover {
     width: 350px;
     height: 350px;
@@ -587,4 +568,95 @@ pre code {
     margin-left: 50px;
     box-shadow: 5px 5px 10px #606060;
     border: 1px solid grey;
+}
+
+.admin {
+    margin-top: 0px;
+}
+
+.reg {
+    position: absolute;
+    margin: 100px;
+    height: 400px;
+    width: 315px;
+    border: 1px solid white;
+    /*    padding: 15px;*/
+}
+
+.form {
+    background: white;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.enterParam {
+    width: 200px;
+}
+
+.details {
+    display: none;
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    border: 2px solid white;
+    margin-top: 0px;
+    background: grey;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #606060;
+    z-index: 9999;
+    font-size: 20px;
+    margin-left: 420px;
+}
+
+.bExit {
+    margin-top: 5px;
+    margin-left: 450px;
+    ;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    background-image: url(/img/check.png);
+    border-radius: 5px;
+
+}
+
+
+
+.nameInfo {
+    margin-top: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    /*    border: 1px solid #E2E2E2;*/
+}
+
+.priceInfo {
+    height: 60px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    /*    border: 1px solid #E2E2E2;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    font-weight: bold;
+    margin-left: 240px;
+}
+
+.moreInfo {
+    min-height: 50%;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: normal;
+    border: 1px solid #E2E2E2;
+    margin: 10px;
+    padding: 15px;
+
 }
