@@ -4,34 +4,38 @@
     </div>
     <div>
         <good-info></good-info>
+<!--
         <table class="store" ng-hide="store" id="idStore" cellspacing="25">
-            <tr>
-                <td class="piece">
-                    <div class="nameGood">{{name}}</div>
-                    <div class="picGood"><img src="/img/goods/xiaomi1.jpg" height="100%" width="100%"></div>
+            <tr >
+                <td class="piece" ng-repeat="x in records">
+                    <div class="nameGood">{{x.name}}</div>
+                    <div class="picGood"><img src="../img/{{x.good_photo_url}}" alt="{{good_photo_url}}" height="100%" width="100%"></div>
                     <div class="priceGood">
-                        <div>{{price}}</div>
-                        <div class="moreGood">About...</div>
+                        <div>{{x.price}}</div>
+                        <div class="moreGood" ng-click="more">more...</div>
                     </div>
                 </td>
-                <td class="piece">
-                    <div class="nameGood">Name</div>
-                    <div class="picGood">Picture</div>
-                    <div class="priceGood" id="sel" mg-model="sel">
-                        <div>Price</div>
-                        <div class="moreGood">About...</div>
-                    </div>
-                </td>
-                <td class="piece">
-                    <div class="nameGood">Name</div>
-                    <div class="picGood">Picture</div>
-                    <div class="priceGood">
-                        <div>Price</div>
-                        <div class="moreGood">About...</div>
-                    </div>
-                </td>
+                
             </tr>
+    
+    
+        </table> 
+        -->
+        <div class="store" ng-hide="store" id="idStore" cellspacing="25">
+           
+                <div class="piece" ng-repeat="x in records">
+                    <div class="nameGood">{{x.name}}</div>
+                    <div class="picGood"><img src="../img/{{x.good_photo_url}}" alt="{{good_photo_url}}" height="100%" width="100%"></div>
+                    <div class="priceGood">
+                        <div>{{x.price}}</div>
+                        <div class="moreGood" ng-click="more">more...</div>
+                    </div>
+                </div>
+                
+           
+    
+    
+        </div>
 
-        </table>
     </div>
 </div>

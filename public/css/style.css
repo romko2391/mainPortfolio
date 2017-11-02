@@ -162,18 +162,16 @@ pre code {
     color: #FFF;
     float: left;
     width: 100%;
-    height: 30px;
+    height: 45px;
 }
 
 
 }
-
 .credit a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
-
 .back {
     position: absolute;
     top: 0;
@@ -194,32 +192,26 @@ pre code {
     -o-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
 }
-
 .back:hover {
     color: black;
     background: rgba(255, 255, 255, 0.5);
 }
-
 .page_container {
     max-width: 960px;
     margin: 50px auto;
 }
-
 .header {
     background: white;
     padding-top: 10px;
     margin-bottom: 0;
 }
-
 .header h1 {
     margin-bottom: 0;
     font-size: 45px;
 }
-
 .header .menu {
     padding-bottom: 10px;
 }
-
 .benefits {
     color: white;
     height: 100px;
@@ -234,23 +226,19 @@ pre code {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-
 .benefits .page_container {
     margin-bottom: 50px;
     margin-top: 0;
 }
-
 .immersive_slider .is-slide .content h2 {
     line-height: 140%;
     font-weight: 100;
     color: white;
     font-weight: 100;
 }
-
 .immersive_slider .is-slide .content a {
     color: white;
 }
-
 .immersive_slider .is-slide .content p {
     float: left;
     font-weight: 100;
@@ -258,7 +246,6 @@ pre code {
     font-size: 20px;
     margin-top: 5px;
 }
-
 .navi ul {
     display: flex;
     margin-top: -25px;
@@ -267,43 +254,50 @@ pre code {
     flex-direction: row;
     box-sizing: border-box;
 }
-
 .navi li {
     margin: 30px;
     list-style: none;
     box-sizing: border-box;
 }
-
 .navi a {
     text-decoration: none;
     color: white;
     padding: 10px;
     box-sizing: border-box;
 }
-
 .navi a:hover {
     color: yellow;
     /*    border: 1px solid white;*/
+    
     box-sizing: border-box;
 }
-
+.results {
+    margin: 50px;
+    min-height: 20px;
+    width: auto;
+    background: #161923;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: normal;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px #606060;
+}
 .pages {
-    margin-top: 190px;
+    margin-top: 173px;
     min-height: 768px;
     width: 100%;
     background: #161923;
 }
-
 .pages h1 {
     color: aliceblue;
     letter-spacing: 10px;
 }
-
 .pages h3 {
     color: aliceblue;
     font-size: 15px;
 }
-
 .block {
     font-size: 25px;
     margin: 30px;
@@ -311,67 +305,57 @@ pre code {
     min-width: 600px;
     border: 1px solid white;
 }
-
 .block h2 {
     color: aliceblue;
     font-style: italic;
 }
-
 .block h3 {
     color: aliceblue;
     font-size: 15px;
     margin-left: 200px;
 }
-
 .logo {
     /*    border-radius: 50px;*/
+    
     height: 34px;
     width: 34px;
     /*        display: flex;*/
 }
-
 .name {
     color: aliceblue;
     font-size: 15px;
 }
-
 #socialInfo {
     /*    border: 1px solid white;*/
+    
     margin: 0 auto;
     padding: 10px;
 }
-
 #google {
     background-image: url("/img/social.png");
     background-position: -13px -87px;
 }
-
 #fb {
     background-image: url("/img/social.png");
     background-position: -13px -18px;
 }
-
 #youtube {
     background-image: url("/img/social.png");
     background-position: 47px -18px;
 }
-
 #tw {
     background-image: url("/img/social.png");
     background-position: -74px -18px;
 }
-
 #ln {
     background-image: url("/img/social.png");
     background-position: -74px -87px;
 }
-
 .mainInfo {
     min-height: 500px;
     width: 100%;
     background: #f3f3f3;
 }
-
 .mainContent {
     margin: 50px;
     min-height: 450px;
@@ -380,7 +364,6 @@ pre code {
     color: white;
     font-size: 25px;
 }
-
 #btnUp {
     min-height: 70px;
     min-width: 70px;
@@ -395,28 +378,26 @@ pre code {
     display: none;
     opacity: 0.4;
 }
-
 #btnUp:hover {
     opacity: 0.8;
     color: white;
 }
-
 .search {
     margin-top: 0;
     font-size: 50px;
     color: aliceblue;
     letter-spacing: 10px;
 }
-
+.sea {
+    color: black;
+}
 .own {
     margin: 0;
 }
-
 .own h2 {
     font-size: 25px;
     color: white;
 }
-
 #tableAutr {
     margin: 0 auto;
     height: 200px;
@@ -424,9 +405,9 @@ pre code {
     background: 161923;
     border-radius: 5px;
     border: 2px solid white;
+    box-shadow: 5px 5px 10px #606060;
     color: aliceblue;
 }
-
 .autr {
     height: 40px;
     width: 90px;
@@ -434,21 +415,20 @@ pre code {
     color: aliceblue;
     border: none;
     /*    outline: none;*/
+    
     border-radius: 5px;
     border: 2px solid white;
     margin: 5px;
 }
-
 .autr:hover {
     background: #515D82;
 }
-
 .area {
     height: 30px;
     width: 180px;
     font-size: 20px;
+    color: black;
 }
-
 #openChat {
     min-height: 60px;
     min-width: 70px;
@@ -463,7 +443,6 @@ pre code {
     opacity: 0.8;
     /*    display: none;*/
 }
-
 .chatBlock {
     position: fixed;
     width: 250px;
@@ -477,12 +456,12 @@ pre code {
     z-index: 9999;
     background: rgba(0, 0, 0, 0.5);
     display: none;
+    box-shadow: 5px 5px 10px #606060;
+    
 }
-
 .chatBlock h3 {
     color: aliceblue;
 }
-
 .mainChat {
     text-align: left;
     width: 230px;
@@ -494,31 +473,32 @@ pre code {
     word-wrap: break-word;
     overflow: scroll;
 }
-
 .goods {
     margin-top: 0px;
 }
-
 .store {
     margin: 0 auto;
+    max-width: 1360px;
     min-height: 500px;
-    width: 100%;
+    width: 99%;
+    box-sizing: border-box;
+    height: auto;
+/*    display: inline-block;*/
+/*    float: left;*/
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
     /*    padding: 20px;*/
 }
-
 .piece {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     background: white;
     margin-left: 50px;
     box-shadow: 10px 5px 15px #878787;
     border: 1px solid grey;
 }
-
 .picGood {
     height: 250px;
     width: 100%;
@@ -527,7 +507,6 @@ pre code {
     font-size: 20px;
     border: 1px solid #E2E2E2;
 }
-
 .nameGood {
     height: 40px;
     width: 100%;
@@ -536,7 +515,6 @@ pre code {
     font-size: 30px;
     border: 1px solid #E2E2E2;
 }
-
 .priceGood {
     height: 60px;
     text-align: center;
@@ -549,52 +527,54 @@ pre code {
     padding-left: 100px;
     font-weight: bold;
 }
-
 .moreGood {
     width: 40%;
     color: black;
     font-size: 15px;
     font-weight: normal;
 }
-
 .properties {
     display: none;
 }
-
 .piece:hover {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     background: white;
     margin-left: 50px;
     box-shadow: 5px 5px 10px #606060;
     border: 1px solid grey;
 }
-
 .admin {
     margin-top: 0px;
 }
-
+.zz {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .reg {
-    position: absolute;
-    margin: 100px;
+    position: relative;
+    margin: 87px;
     height: 400px;
     width: 315px;
     border: 1px solid white;
-    /*    padding: 15px;*/
+/*        padding: 15px;*/
+    
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #606060;
 }
-
 .form {
     background: white;
     margin: 0 auto;
     height: 200px;
     width: 200px;
     word-wrap: break-word;
+    color: black;
 }
-
 .enterParam {
     width: 200px;
+    color: black;
 }
-
 .details {
     display: none;
     position: absolute;
@@ -610,7 +590,6 @@ pre code {
     font-size: 20px;
     margin-left: 420px;
 }
-
 .bExit {
     margin-top: 5px;
     margin-left: 450px;
@@ -621,11 +600,7 @@ pre code {
     outline: none;
     background-image: url(/img/check.png);
     border-radius: 5px;
-
 }
-
-
-
 .nameInfo {
     margin-top: 0px;
     height: 40px;
@@ -635,13 +610,13 @@ pre code {
     font-size: 30px;
     /*    border: 1px solid #E2E2E2;*/
 }
-
 .priceInfo {
     height: 60px;
     text-align: center;
     color: aliceblue;
     font-size: 25px;
     /*    border: 1px solid #E2E2E2;*/
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -649,7 +624,6 @@ pre code {
     font-weight: bold;
     margin-left: 240px;
 }
-
 .moreInfo {
     min-height: 50%;
     color: aliceblue;
@@ -658,5 +632,32 @@ pre code {
     border: 1px solid #E2E2E2;
     margin: 10px;
     padding: 15px;
-
+}
+.registration {
+    display: none;
+    position: absolute;
+    height: 260px;
+    width: 380px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px #606060;
+    z-index: 9999;
+    font-size: 20px;
+    margin-left: 460px;
+    background: 161923;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: aliceblue;
+    padding: 25px;
+}
+.reg2 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 185px;
+    height: 400px;
+    width: 315px;
+    border: 1px solid white;
+/*        padding: 15px;*/
+    
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #606060;
 }

@@ -1,0 +1,31 @@
+<div class="registration" ng-show="newUser" id="registration">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" class="area" required ng-model="newName"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" class="area"  ng-model="newLastName" required></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" class="area"   ng-model="newEmail"  required></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text" class="area"   ng-model="newPass" required></td>
+            <tr>
+                <tr>
+                    <td>Day of birthday</td>
+                    <td><input type="date" class="area"  ng-model="newBirth"  required></td>
+                <tr>
+        <tr><td></td></tr>
+                <tr>
+                    <td><input type="submit" class="autr" value="Close" id="closeReg" ng-click="close()"></td>
+                    <td><input type="submit" class="autr" value="Confirm" ng-click="registr"></td>
+                <tr>
+
+
+    </table>
+</div>

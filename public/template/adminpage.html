@@ -1,5 +1,5 @@
 <div class="admin pages" ng-show="admin">
-    <div class="pages admin">
+    <div class="pages admin zz">
         <h1>Hello Admin</h1>
          <div class="reg">
             <h3>Add good</h3>
@@ -7,22 +7,44 @@
                  
                  <tr>
                      <td>Name</td>
-                     <td><input type="text" class="enterParam" ng-model="name" required></td>
+                     <td><input type="text" class="enterParam" ng-model="nameAdd" required></td>
                  </tr>
                  <tr>
                      <td>Price</td>
-                     <td><input type="text" ng-model="price" class="enterParam" required></td>
+                     <td><input type="text" ng-model="priceAdd" class="enterParam" required></td>
                  </tr>
                  <tr>
                      <td>About</td>
-                     <td><input type="text" class="form" ng-model="about" required></td>
+                     <td><input type="text" class="form" ng-model="aboutAdd" required></td>
                  </tr>
                  <tr>
                      <td>Photo</td>
-                     <td><input type="button"  value="Select photo" id="selectPhoto" ng-click="selectPhoto()" required></td>
+                     <td><label class="uploadbutton">
+            <div class="button">Upload</div>
+            <input type="file" file-model="myFile">
+            </label><br></td>
                  </tr>
              </table>
-             <input type="button" value="Додати" ng-click="additem()">
+              <input type="submit" value="Clear" ng-click="clearitem()" class="autr">
+             <input type="submit" value="Add" ng-click="additem()" class="autr">
+            
+         </div>
+         <div class="reg2">
+            <h3>Add News</h3>
+             <table class="name">
+                 
+                 <tr>
+                     <td>Title</td>
+                     <td><input type="text" class="enterParam" ng-model="newsTitleAdd" required></td>
+                 </tr>
+                 <tr>
+                     <td>About</td>
+                     <td><input type="text" class="form" ng-model="newsAboutAdd" required></td>
+                 </tr>
+             </table>
+              <input type="submit" value="Clear" ng-click="clearNews()" class="autr">
+             <input type="submit" value="Add" ng-click="addNews()" class="autr">
+            
          </div>
     </div>
   

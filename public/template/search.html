@@ -1,7 +1,7 @@
-<div class="pages search" ng-show="search">
+<div class="pages search" ng-show="search" ng-model="searchModel">
     <div class="search">Results</div>
     <div ng-repeat="results in mainText| filter: searchModel">  
-    <div class="block"> {{results}} </div>
+    <div class="results"> {{results}} </div>
  </div>
   
 </div>

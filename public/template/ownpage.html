@@ -2,27 +2,28 @@
 
     <h1>Enter</h1>
     <br>
+   
     <table id="tableAutr">
         <tr>
             <td>Login</td>
-            <td><input type="email" class="area" ng-model="login" required autofocus></td>
+            <td><input type="text" class="area" ng-model="login" required autofocus></td>
         </tr>
         <tr>
 
             <td>Password</td>
             <td><input type="password" class="area" ng-model="password" required></td>
         </tr>
+       
         <tr>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
+            <td><input type="button" value="Register" class="autr" ng-click="newUser" id="newUser"></td>
             <td><input type="button" value="Forget" class="autr">
                 <input type="button" value="Submit" ng-click="check()" ng-disabled="myForm.$invalid" class="autr"></td>
         </tr>
     </table>
-    {{user}}
+   <div class="area">{{user}}</div> 
+     <registration></registration>
+     <profile-admin></profile-admin>
+
 </div>
 
 

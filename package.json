@@ -1,18 +1,25 @@
 {
-	"name": "server"
-	, "version": "1.0.0"
-	, "description": ""
-	, "main": "jquery-3.2.1.js"
-	, "scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	}
-	, "author": ""
-	, "license": "ISC"
-	, "dependencies": {
-		"body-parser": "^1.18.2", //пекодування інфи, який текст прийшов на сервер
-		"cors": "^2.8.4", // знімає захист доступу
-		"express": "^4.16.1", //сам сервер, набір ф-кцій що відповідає за підключення
-		"mysql": "^2.14.1"
-		, "nodemon": "^1.12.1" //
-	}
+  "name": "newshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "email-templates": "^2.7.1",
+    "express": "^4.15.4",
+    "handlebars": "^4.0.10",
+    "lodash": "^4.17.4",
+    "multer": "^1.3.0",
+    "mysql": "^2.14.1",
+    "nodemailer": "^4.1.0",
+    "nodemon": "^1.11.0",
+    "twilio": "^3.6.7"
+  }
 }
