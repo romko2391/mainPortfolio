@@ -1,14 +1,13 @@
 <div>
-    <div class="pages" ng-show="home" ng-cloak>
+    <div class="pages" ng-show="home">
         <h1>Home</h1>
         <br>
     </div>
-    <div class="pages" ng-show="blog" ng-cloak>
+    <div class="pages" ng-show="blog">
         <h1></h1>
-        <div ng-repeat="a in arr" class="newsBlock block">
-            <h2>{{a.title}}</h2>
-            <br>
-            <h3>{{a.text}}</h3>
+        <div ng-repeat="a in arr" class="block">
+            <h3>{{a.title}}</h3>
+            <h4>{{a.text}}</h4>
         </div>
     </div>
     <div class="pages" ng-show="contact" ng-cloak>

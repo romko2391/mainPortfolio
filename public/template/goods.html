@@ -1,41 +1,16 @@
 <div class="pages goods" ng-show="goods">
     <div class="title">
-        <h1>Welcome in our store</h1>
-    </div>
+        <h1>Welcome in our store</h1> </div>
     <div>
         <good-info></good-info>
-<!--
-        <table class="store" ng-hide="store" id="idStore" cellspacing="25">
-            <tr >
-                <td class="piece" ng-repeat="x in records">
-                    <div class="nameGood">{{x.name}}</div>
-                    <div class="picGood"><img src="../img/{{x.good_photo_url}}" alt="{{good_photo_url}}" height="100%" width="100%"></div>
-                    <div class="priceGood">
-                        <div>{{x.price}}</div>
-                        <div class="moreGood" ng-click="more">more...</div>
-                    </div>
-                </td>
-                
-            </tr>
-    
-    
-        </table> 
-        -->
         <div class="store" ng-hide="store" id="idStore" cellspacing="25">
-           
-                <div class="piece" ng-repeat="x in records">
-                    <div class="nameGood">{{x.name}}</div>
-                    <div class="picGood"><img src="../img/{{x.good_photo_url}}" alt="{{good_photo_url}}" height="100%" width="100%"></div>
-                    <div class="priceGood">
-                        <div>{{x.price}}</div>
-                        <div class="moreGood" ng-click="more">more...</div>
-                    </div>
+            <div class="piece" ng-repeat="x in records">
+                <div class="nameGood">{{x.name}}</div>
+                <div class="picGood"><img src="../img/{{x.good_photo_url}}" alt="{{good_photo_url}}" height="100%" width="100%"></div>
+                <div class="priceGood">
+                    <div>{{x.price}}</div>
+                    <div class="moreGood" id="moreGood" ng-click="more(this)">more... </div>
                 </div>
-                
-           
-    
-    
+            </div>
         </div>
-
     </div>
-</div>

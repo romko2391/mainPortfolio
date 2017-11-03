@@ -243,7 +243,7 @@ pre code {
     float: left;
     font-weight: 100;
     width: 100%;
-    font-size: 20px;
+/*    font-size: 20px;*/
     margin-top: 5px;
 }
 .navi ul {
@@ -282,10 +282,10 @@ pre code {
     letter-spacing: normal;
     border-radius: 5px;
     border: 2px solid white;
-    box-shadow: 5px 5px 10px #606060;
+    box-shadow: 0px 0px 20px #EAEAEA;
 }
 .pages {
-    margin-top: 173px;
+    margin-top: 205px;
     min-height: 768px;
     width: 100%;
     background: #161923;
@@ -305,14 +305,18 @@ pre code {
     min-width: 600px;
     border: 1px solid white;
 }
-.block h2 {
-    color: aliceblue;
-    font-style: italic;
-}
+
 .block h3 {
     color: aliceblue;
-    font-size: 15px;
-    margin-left: 200px;
+    font-style: oblique;
+        font-size: 25px;
+
+}
+.block h4 {
+    color: aliceblue;
+    font-size: 20px;
+/*    margin-left: 200px;*/
+    font-weight: normal;
 }
 .logo {
     /*    border-radius: 50px;*/
@@ -405,7 +409,7 @@ pre code {
     background: 161923;
     border-radius: 5px;
     border: 2px solid white;
-    box-shadow: 5px 5px 10px #606060;
+    box-shadow: 0px 0px 20px #EAEAEA;
     color: aliceblue;
 }
 .autr {
@@ -456,8 +460,7 @@ pre code {
     z-index: 9999;
     background: rgba(0, 0, 0, 0.5);
     display: none;
-    box-shadow: 5px 5px 10px #606060;
-    
+    box-shadow: 0px 0px 20px #EAEAEA;
 }
 .chatBlock h3 {
     color: aliceblue;
@@ -483,8 +486,9 @@ pre code {
     width: 99%;
     box-sizing: border-box;
     height: auto;
-/*    display: inline-block;*/
-/*    float: left;*/
+    /*    display: inline-block;*/
+    /*    float: left;*/
+    
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -496,16 +500,17 @@ pre code {
     height: 400px;
     background: white;
     margin-left: 50px;
-    box-shadow: 10px 5px 15px #878787;
+    /*    box-shadow: 0px 0px 20px #EAEAEA;*/
+    
     border: 1px solid grey;
 }
 .picGood {
-    height: 250px;
+    height: 300px;
     width: 100%;
     text-align: center;
     color: black;
     font-size: 20px;
-    border: 1px solid #E2E2E2;
+    /*    border: 1px solid #E2E2E2;*/
 }
 .nameGood {
     height: 40px;
@@ -513,14 +518,15 @@ pre code {
     text-align: center;
     color: black;
     font-size: 30px;
-    border: 1px solid #E2E2E2;
+    /*    border: 1px solid #E2E2E2;*/
 }
 .priceGood {
     height: 60px;
     text-align: center;
     color: black;
     font-size: 25px;
-    border: 1px solid #E2E2E2;
+    /*    border: 1px solid #E2E2E2;*/
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -541,7 +547,9 @@ pre code {
     height: 400px;
     background: white;
     margin-left: 50px;
-    box-shadow: 5px 5px 10px #606060;
+    /*    box-shadow: 5px 5px 10px #606060;*/
+    
+    box-shadow: 0px 0px 20px #EAEAEA;
     border: 1px solid grey;
 }
 .admin {
@@ -557,11 +565,11 @@ pre code {
     margin: 87px;
     height: 400px;
     width: 315px;
-    border: 1px solid white;
-/*        padding: 15px;*/
+    box-shadow: 0px 0px 20px #EAEAEA;
+    /*        padding: 15px;*/
     
+    border: 1px solid white;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #606060;
 }
 .form {
     background: white;
@@ -575,8 +583,7 @@ pre code {
     width: 200px;
     color: black;
 }
-.details {
-    display: none;
+#details {
     position: absolute;
     height: 400px;
     width: 500px;
@@ -589,11 +596,12 @@ pre code {
     z-index: 9999;
     font-size: 20px;
     margin-left: 420px;
+    padding: 10px;
 }
 .bExit {
-    margin-top: 5px;
-    margin-left: 450px;
-    ;
+    margin-top: -9px;
+    margin-left: 485px;
+    margin-bottom: 10px;
     height: 25px;
     width: 25px;
     border: none;
@@ -608,14 +616,14 @@ pre code {
     text-align: center;
     color: aliceblue;
     font-size: 30px;
-    /*    border: 1px solid #E2E2E2;*/
+        border: 1px solid #E2E2E2;
 }
 .priceInfo {
     height: 60px;
     text-align: center;
     color: aliceblue;
     font-size: 25px;
-    /*    border: 1px solid #E2E2E2;*/
+        border: 1px solid #E2E2E2;
     
     display: flex;
     align-items: center;
@@ -623,6 +631,7 @@ pre code {
     padding-left: 100px;
     font-weight: bold;
     margin-left: 240px;
+/*    margin-right: 5px;*/
 }
 .moreInfo {
     min-height: 50%;
@@ -642,7 +651,7 @@ pre code {
     box-shadow: 5px 5px 10px #606060;
     z-index: 9999;
     font-size: 20px;
-    margin-left: 460px;
+    margin-left: 535px;
     background: 161923;
     border-radius: 5px;
     border: 2px solid white;
@@ -656,8 +665,8 @@ pre code {
     height: 400px;
     width: 315px;
     border: 1px solid white;
-/*        padding: 15px;*/
+    /*        padding: 15px;*/
     
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #606060;
+    box-shadow: 0px 0px 20px #EAEAEA;
 }

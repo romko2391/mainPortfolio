@@ -1,6 +1,6 @@
 <div>
-    <div class="details" ng-hide="details">
-        <input type="button" class="bExit" ng-click="exit">
+    <div class="details" id="details" ng-show="moreInf">
+        <div class="bExit" ng-click="exit()"></div>
         <div class="nameInfo">{{name}}</div>
         <div class="moreInfo" >{{about}}</div>
         <div class="priceInfo">{{price}}</div>
