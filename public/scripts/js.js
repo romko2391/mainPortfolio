@@ -120,7 +120,7 @@ app.directive('headerBlock', function () {
                         $scope.chat = true;
 //                        $scope.details = false;
                     }
-                    , name: "Blog"
+                    , name: "News"
                  }, {
                     action: function () {
                         $scope.home = false;

@@ -243,7 +243,8 @@ pre code {
     float: left;
     font-weight: 100;
     width: 100%;
-/*    font-size: 20px;*/
+    /*    font-size: 20px;*/
+    
     margin-top: 5px;
 }
 .navi ul {
@@ -304,18 +305,18 @@ pre code {
     min-height: 200px;
     min-width: 600px;
     border: 1px solid white;
+    box-shadow: 0px 0px 20px #EAEAEA;
 }
-
 .block h3 {
     color: aliceblue;
     font-style: oblique;
-        font-size: 25px;
-
+    font-size: 25px;
 }
 .block h4 {
     color: aliceblue;
     font-size: 20px;
-/*    margin-left: 200px;*/
+    /*    margin-left: 200px;*/
+    
     font-weight: normal;
 }
 .logo {
@@ -484,24 +485,31 @@ pre code {
     max-width: 1360px;
     min-height: 500px;
     width: 99%;
-    box-sizing: border-box;
+    /*    box-sizing: border-box;*/
+    
     height: auto;
     /*    display: inline-block;*/
     /*    float: left;*/
     
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
-    /*    padding: 20px;*/
+ display: flex;
+    flex: none;
+    flex-flow: row wrap;
+/*        vertical-align: top;*/
+
+/*    flex-direction: row;*/
+/*    align-items: baseline;*/
+/*    justify-content: space-around;*/
+    font-weight: wrap;
+        padding: 20px;
+/*    float: left;*/
 }
 .piece {
+   margin-top: 50px;
     width: 400px;
     height: 400px;
     background: white;
     margin-left: 50px;
-    /*    box-shadow: 0px 0px 20px #EAEAEA;*/
-    
+    box-sizing: border-box;
     border: 1px solid grey;
 }
 .picGood {
@@ -510,7 +518,9 @@ pre code {
     text-align: center;
     color: black;
     font-size: 20px;
-    /*    border: 1px solid #E2E2E2;*/
+/*        border: 1px solid yellow;*/
+    box-sizing: border-box;
+/*    padding: 1px;*/
 }
 .nameGood {
     height: 40px;
@@ -589,18 +599,18 @@ pre code {
     width: 500px;
     border: 2px solid white;
     margin-top: 0px;
-    background: grey;
+    background: #161923;
     color: aliceblue;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #606060;
+    box-shadow: 0px 0px 20px #EAEAEA;
     z-index: 9999;
     font-size: 20px;
     margin-left: 420px;
     padding: 10px;
 }
 .bExit {
-    margin-top: -9px;
-    margin-left: 485px;
+    margin-top: 0px;
+    margin-left: 475px;
     margin-bottom: 10px;
     height: 25px;
     width: 25px;
@@ -616,22 +626,21 @@ pre code {
     text-align: center;
     color: aliceblue;
     font-size: 30px;
-        border: 1px solid #E2E2E2;
+    border: 1px solid #E2E2E2;
 }
 .priceInfo {
     height: 60px;
     text-align: center;
     color: aliceblue;
     font-size: 25px;
-        border: 1px solid #E2E2E2;
-    
+    border: 1px solid #E2E2E2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 100px;
     font-weight: bold;
     margin-left: 240px;
-/*    margin-right: 5px;*/
+    /*    margin-right: 5px;*/
 }
 .moreInfo {
     min-height: 50%;
@@ -639,7 +648,7 @@ pre code {
     font-size: 15px;
     font-weight: normal;
     border: 1px solid #E2E2E2;
-    margin: 10px;
+    margin: 10px 0px;
     padding: 15px;
 }
 .registration {
@@ -648,7 +657,7 @@ pre code {
     height: 260px;
     width: 380px;
     margin-top: 10px;
-    box-shadow: 5px 5px 10px #606060;
+    box-shadow: 0px 0px 20px #EAEAEA;
     z-index: 9999;
     font-size: 20px;
     margin-left: 535px;
